@@ -4,7 +4,7 @@ generando así una jerarquía de clases dentro de una aplicación.
 Si una clase deriva de otra, esta hereda sus atributos y métodos y puede añadir nuevos atributos, métodos o redefinir los heredados.
 """
 class Persona: #Clase base o padre, es la clase principal que todos los demás heredan
-    def __init__(self, nombre, edad, nacionalidad):
+    def __init__(self, nombre, edad, nacionalidad): # constructor para inicializar los atributos (nombre, edad, nacionalidad) de la clase Persona
         self.nombre = nombre
         self.edad = edad
         self.nacionalidad = nacionalidad

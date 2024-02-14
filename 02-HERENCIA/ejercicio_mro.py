@@ -1,18 +1,12 @@
-class Animal:
-    def __init__(self):
-        pass
+class Animal: # Clase principal, sin constructor porque no hay que inicializar atributos
     def comer(self):
         print("Animal comiendo")
     
 class Mamifero(Animal):
-    def __init__(self):
-        pass
     def amamantar(self):
         print("Mamifero amamantando")
 
 class Ave(Animal):
-    def __init__(self):
-        pass
     def volar(self):
         print("Ave volando")
         
