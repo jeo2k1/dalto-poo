@@ -26,4 +26,4 @@ def mi_decorador(funcion): #  funcion mi_decorador que recibe funcion como param
 def saludar(nombre):
     print(f"Hola {nombre}")
 
-saludar("JeO")
+saludar("JeO 2024")
